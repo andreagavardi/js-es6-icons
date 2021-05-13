@@ -43,6 +43,7 @@ select {
   border-radius: 10px;
   text-align: center;
   text-transform: uppercase;
+  visibility: visible;
 }
 i {
   font-size: 2.75rem;
