@@ -104,3 +104,19 @@ const icons = [
 		family: 'fas'
 	}
 ];
+
+/* Milestone 1:
+Partendo dalla seguente struttura dati , mostriamo in pagina tutte le icone disponibili come da layout.
+ */
+
+icons.forEach(icon => {
+    
+    document.querySelector(".container").insertAdjacentHTML("beforeend",
+    `
+         <div class="card">
+            <i class="${icon.family} ${icon.prefix}${icon.name}"></i>
+            <h3>${icon.name}</h3>
+        </div>
+    `);
+  
+})
