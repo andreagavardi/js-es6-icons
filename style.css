@@ -34,11 +34,11 @@ select {
 }
 
 .card {
-  width: 200px;
+  width: 230px;
   height: 100px;
   /* font-size: 1rem; */
   padding: 20px;
-  margin: 11px;
+  margin: 20px 20px 60px 20px;
   background-color: white;
   border-radius: 10px;
   text-align: center;
@@ -46,4 +46,13 @@ select {
 }
 i {
   font-size: 2.75rem;
+}
+.blue {
+  color: #3468fa;
+}
+.orange {
+  color: #fba531;
+}
+.violet {
+  color: #833c80;
 }
