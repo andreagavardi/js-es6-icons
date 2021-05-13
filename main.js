@@ -149,13 +149,9 @@ selectEl.addEventListener("change", function(){             //ascolto per l'even
         if(selectEl.value == "all"){
            document.querySelector(".container").insertAdjacentHTML("beforeend",markup);        
         }
-        else if (selectEl.value == "animal" && icon.type == "animal"){
+        else if (selectEl.value ==icon.type){
            document.querySelector(".container").insertAdjacentHTML("beforeend",markup);   
 
-        }else if(selectEl.value == "user" && icon.type == "user"){
-            document.querySelector(".container").insertAdjacentHTML("beforeend",markup);
-        }else if (selectEl.value == "vegetable" && icon.type == "vegetable"){
-            document.querySelector(".container").insertAdjacentHTML("beforeend",markup);
         }
     }) ;
     
